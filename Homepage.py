@@ -6,6 +6,7 @@ import torch
 import cv2
 import os
 import time
+from ultralytics.yolo.utils.checks import check_requirements
 
 st.set_page_config(layout="wide")
 
