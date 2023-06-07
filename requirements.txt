@@ -4,18 +4,13 @@
 # Base ----------------------------------------
 
 numpy
-
-
 PyYAML
 request
 scipy  # Google Colab version
-
 torchvision
 tqdm
 protobuf # https://github.com/ultralytics/yolov5/issues/8012
 ultralytics
-
-
 # Extras --------------------------------------
 ipython  # interactive notebook
 psutil  # system utilization
