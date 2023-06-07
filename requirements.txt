@@ -30,4 +30,4 @@ thop  # FLOPs computation
 streamlit
 wget
 ffmpeg-python
-opencv-python==4.7.0.68
+opencv-python-headless
