@@ -2,15 +2,24 @@
 # Usage: pip install -r requirements.txt
 
 # Base ----------------------------------------
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python-headless
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1  # Google Colab version
+torch>=1.7.0
+torchvision>=0.8.1
+tqdm>=4.41.0
+protobuf<4.21.5  # https://github.com/ultralytics/yolov5/issues/8012
 
-numpy
-PyYAML
-request
-scipy  # Google Colab version
-torchvision
-tqdm
-protobuf # https://github.com/ultralytics/yolov5/issues/8012
-ultralytics
+
+# Plotting ------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+
 # Extras --------------------------------------
 ipython  # interactive notebook
 psutil  # system utilization
@@ -18,7 +27,4 @@ thop  # FLOPs computation
 streamlit
 wget
 glob2
-os-win
-torch
-Pillow
-opencv-python-headless
+ultralytics
