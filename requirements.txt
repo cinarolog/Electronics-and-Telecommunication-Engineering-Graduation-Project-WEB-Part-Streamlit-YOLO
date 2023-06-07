@@ -2,17 +2,17 @@
 # Usage: pip install -r requirements.txt
 
 # Base ----------------------------------------
---upgrade pip
-numpy>=1.18.5
-opencv-python-headless
-Pillow==9.2.0
-PyYAML>=5.3.1
-requests>=2.23.0
-scipy>=1.4.1  # Google Colab version
-torch==1.11.0
-torchvision>=0.8.1
-tqdm>=4.41.0
-protobuf<4.21.5  # https://github.com/ultralytics/yolov5/issues/8012
+
+numpy
+
+
+PyYAML
+request
+scipy  # Google Colab version
+
+torchvision
+tqdm
+protobuf # https://github.com/ultralytics/yolov5/issues/8012
 ultralytics
 
 
@@ -20,10 +20,10 @@ ultralytics
 ipython  # interactive notebook
 psutil  # system utilization
 thop  # FLOPs computation
-streamlit==1.19.0
-wget==3.2
-glob2==0.7
+streamlit
+wget
+glob2
 os-win
-Py-OS
-TIME-python
-python-time
+torch
+Pillow
+opencv-python-headless
