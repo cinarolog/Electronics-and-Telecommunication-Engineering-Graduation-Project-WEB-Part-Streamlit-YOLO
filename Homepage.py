@@ -9,7 +9,7 @@ import time
 
 st.set_page_config(layout="wide")
 
-cfg_model_path = 'models/sample_300_last.pt'
+cfg_model_path = 'sample_300_last.pt'
 model = None
 confidence = .25
 
